@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="#">
+        <h1>Tipos de Inputs HTML5</h1>
+        <fieldset>
+            <legend>Identificação de Acesso</legend>
+            <div class="row">
+                <div class="campo">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="Nome" id="" placeholder="Nome Completo" required>
+                </div>
+                <div class="campo">
+                    <label for="senha">Senha: </label>
+                    <input type="password" name="senha" id="" placeholder="Senha" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Email: </label>
+                    <input type="text" name="email", id="", placeholder="email@gmail.com", required>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Quantitativos</legend>
+            <div class="row">
+                <div class="campo">
+                    <label for="idade: ">Idade</label>
+                    <input type="number" name="Idade" id="" min="0" max="1000">
+                </div>
+                <div class="campo">
+                    <label for="volume">Volume: </label>
+                    <input type="range" name="Volume" id="" min="0", max="100">
+                </div>
+                <div class="campo">
+                    <label for="cor">Tema de Cor: </label>
+                    <input type="color" name="cor tema" id="" value="#000">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Agendamento</legend>
+            <div class="row">
+                <div class="campo">
+                    <label for="data: ">Data: </label>
+                    <input type="date" name="data" id="">
+                </div>
+                <div class="campo">
+                    <label for="hora">Hora: </label>
+                    <input type="time" name="hora" id="">
+                </div>
+                <div class="campo">
+                    <label for="semana">Semana: </label>
+                    <input type="week" name="semana" id="">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias</legend>
+            <div class="row">
+                <div class="campo">
+                    <label for="checkbox">Sim: </label>
+                    <input type="checkbox" name="checkbox" id="">
+                </div>
+                <div class="campo">
+                    <label for="radio">Não: </label>
+                    <input type="radio" name="radio" id="">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Enviar Arquivos</legend>
+            <div class="row">
+                <div class="campo">
+                    <label for="file">Arquivo: </label>
+                    <input type="file" name="arquivo" id="">
+                </div>
+                <div class="campo">
+                    <label for="url">URL: </label>
+                    <input type="url" name="url" id="">
+                </div>
+                <div class="campo">
+                    <label for="textarea">TextArea: </label>
+                    <input type="textarea" name="textarea" id="">
+                </div>
+            </div>
+        </fieldset>
+        <!-- Agenciamento - data, hora, semana
+             Preferencias - checkbox, radio
+             Enviar Arquivos - file, url, textarea
+        -->
+    </form>
+</body>
+</html>
